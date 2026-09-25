@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "worldgamerulesenumfix",
+  "version": "${version}",
+  "name": "WorldGameRulesEnumFix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "None",
+  "icon": "assets/worldgamerulesenumfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nico.worldgamerulesenumfix.WorldGameRulesEnumFix"
+    ]
+  },
+  "mixins": [
+    "worldgamerulesenumfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "nico.worldgamerulesenumfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CommandContextAccessor",
+    "EnumRuleAccessor",
+    "EnumRuleMixin",
+    "EnumRuleTypeMixin",
+    "WorldGameRulesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
