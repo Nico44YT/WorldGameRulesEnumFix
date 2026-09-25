@@ -10,10 +10,9 @@ base {
     archivesName = project.archives_base_name
 }
 
-
-fabricApi {
-    configureDataGeneration {
-        client = true
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
